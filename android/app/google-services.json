@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "750909210261",
+    "project_id": "astrobase-4200d",
+    "storage_bucket": "astrobase-4200d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750909210261:android:604212d5078356adc8259c",
+        "android_client_info": {
+          "package_name": "com.example.astro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT3RxNBdmOD_fe2gJhZjrCdxxrM8y0Vh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

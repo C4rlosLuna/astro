@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "astrobase-4200d",
+          "appId": "1:750909210261:android:604212d5078356adc8259c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "astrobase-4200d",
+          "configurations": {
+            "android": "1:750909210261:android:604212d5078356adc8259c",
+            "ios": "1:750909210261:ios:181270cfbdf46628c8259c",
+            "macos": "1:750909210261:ios:181270cfbdf46628c8259c",
+            "web": "1:750909210261:web:5342d72d0226a0fcc8259c",
+            "windows": "1:750909210261:web:6b6d65bc060b7965c8259c"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
